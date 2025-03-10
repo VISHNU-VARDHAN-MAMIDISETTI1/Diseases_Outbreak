@@ -11,9 +11,9 @@ st.set_page_config(
 )
 
 # Load the diabetes model
-diabetes_model = pickle.load(open(r"D:\vishnu\disease outbreak\Saved_models\diabetes_model.sav", "rb"))
-Heart_model=pickle.load(open(r"D:\vishnu\disease outbreak\Saved_models\Heart_model.sav","rb"))
-pakinsons_model=pickle.load(open(r"D:\vishnu\disease outbreak\Saved_models\pakinsons_model.sav","rb"))
+diabetes_model = pickle.load(open(r"D:/vishnu/disease outbreak/Saved_models/diabetes_model.sav", "rb"))
+Heart_model=pickle.load(open(r"D:/vishnu/disease outbreak/Saved_models/Heart_model.sav","rb"))
+pakinsons_model=pickle.load(open(r"D:/vishnu/disease outbreak/Saved_models/pakinsons_model.sav","rb"))
 
 # Sidebar menu
 with st.sidebar:
